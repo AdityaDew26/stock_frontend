@@ -1,4 +1,5 @@
 import './App.css'
+import axios from 'axios'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import Signup from "./components/auth/signup/Signup"
@@ -11,10 +12,21 @@ import UpdateProfile from './components/auth/updateProfile/UpdateProfile';
 
 
 function App() {
+
+  const [data, setData] = useState(null);
+  
+  useEffect(() => {
+;
+
+    axios.get(`https://stock-backend-grzq.onrender.com/api/endpoint`)
+      .then(response => setData(response.data))
+      .catch(error => console.error('Error:', error));
+  }, []);
   
 
   return (
     <>
+     {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : <p>Loading...</p>}
      <Router>
       <Routes>
          <Route path='/' element={<Login/>}/>
