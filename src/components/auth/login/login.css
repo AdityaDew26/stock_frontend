@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.signup-box {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: white;
+}
+
+.form-container {
+    width: 40%;
+    padding: 10px;
+    font-family: "Mulish", serif;
+}
+
+.form-container form {
+    width: 90%;
+    padding: 10px;
+    margin: 150px 0;
+}
+
+.form-container div {
+    margin-top: 10px;
+}
+
+.form-container input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    font-family: "Mulish", serif;
+    font-weight: 300;
+}
+
+#password,
+#confirmPassword {
+    width: 70%;
+    border: none;
+}
+
+.password,
+.confirm-password {
+    border-bottom: 3px solid black;
+    padding: 5px;
+}
+
+.password button,
+.confirm-password button {
+    float: right;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #CDC1FF;
+}
+
+.password button:hover,
+.confirm-password button:hover {
+    background-color: #8a80b1;
+}
+
+.password button:active,
+.confirm-password button:active {
+    background-color: #6c6199;
+}
+
+.image {
+    width: 60%;
+}
+
+.image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.submit button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: #4C3BCF;
+    color: white;
+    box-shadow: 1px 2px 7px black;
+    border-radius: 3px;
+}
+
+.submit button:hover {
+    background-color: #372a9f;
+}
+
+.submit button:active {
+    background-color: #291e7b;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(112, 33, 186);
+}
+
+.form-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+}

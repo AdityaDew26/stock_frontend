@@ -1,0 +1,64 @@
+.update-profile-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.update-profile-title {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.update-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-profile-input {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.update-profile-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  background-color: #fff;
+}
+
+.update-profile-button {
+  padding: 12px;
+  background-color: #16c2ce;
+  color: #fff;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.update-profile-button:hover {
+  background-color: #0ea094;
+
+}
+
+.update-profile-button:active {
+  transform: scale(1);
+}

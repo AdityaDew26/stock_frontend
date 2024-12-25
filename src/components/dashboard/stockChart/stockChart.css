@@ -1,0 +1,19 @@
+.stock-chart{
+    width: 100%;
+   background: linear-gradient(135deg, #f3f4f8, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+
+}
+
+.stock-chart h2{
+    font-size: 24px;
+    color: black;
+}
+
+.stock-chart.dark-theme{
+    background-color: black;
+    color: white;
+}

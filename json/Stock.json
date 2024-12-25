@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "price": 150.00,
+    "volume": 1000000,
+    "marketCap": 2500000000000,
+    "sector": "Technology",
+    "industry": "Consumer Electronics"
+  },
+  {
+    "symbol": "GOOG",
+    "companyName": "Alphabet Inc. (Google)",
+    "price": 2800.00,
+    "volume": 1200000,
+    "marketCap": 1900000000000,
+    "sector": "Technology",
+    "industry": "Internet Services"
+  },
+  {
+    "symbol": "TSLA",
+    "companyName": "Tesla Inc.",
+    "price": 700.00,
+    "volume": 1500000,
+    "marketCap": 800000000000,
+    "sector": "Automotive",
+    "industry": "Electric Vehicles"
+  },
+  {
+    "symbol": "AMZN",
+    "companyName": "Amazon.com, Inc.",
+    "price": 3400.00,
+    "volume": 2000000,
+    "marketCap": 1700000000000,
+    "sector": "Consumer Services",
+    "industry": "E-commerce"
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation",
+    "price": 290.00,
+    "volume": 3000000,
+    "marketCap": 2200000000000,
+    "sector": "Technology",
+    "industry": "Software"
+  },
+  {
+    "symbol": "NFLX",
+    "companyName": "Netflix Inc.",
+    "price": 600.00,
+    "volume": 700000,
+    "marketCap": 260000000000,
+    "sector": "Consumer Services",
+    "industry": "Entertainment"
+  },
+  {
+    "symbol": "FB",
+    "companyName": "Meta Platforms, Inc. (Facebook)",
+    "price": 350.00,
+    "volume": 1400000,
+    "marketCap": 1000000000000,
+    "sector": "Technology",
+    "industry": "Social Media"
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation",
+    "price": 800.00,
+    "volume": 500000,
+    "marketCap": 500000000000,
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "DIS",
+    "companyName": "The Walt Disney Company",
+    "price": 175.00,
+    "volume": 900000,
+    "marketCap": 320000000000,
+    "sector": "Consumer Services",
+    "industry": "Entertainment"
+  },
+  {
+    "symbol": "BA",
+    "companyName": "The Boeing Company",
+    "price": 200.00,
+    "volume": 800000,
+    "marketCap": 130000000000,
+    "sector": "Industrial Goods",
+    "industry": "Aerospace"
+  }
+]

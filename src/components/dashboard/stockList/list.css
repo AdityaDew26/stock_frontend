@@ -1,0 +1,133 @@
+/* General styles for the StockList container */
+.list-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f4f7fa;
+}
+
+.stock-table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.stock-table h3 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Table styling */
+
+.stock-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.stock-table th,
+td {
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+}
+
+.stock-table th {
+  background-color: #4e73df;
+  color: rgb(236, 242, 237);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stock-table td {
+  background-color: #fafbfc;
+}
+
+tr:nth-child(even) td {
+  background-color: #f4f7fa;
+}
+
+/* Styling for buttons */
+.stock-table button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.stock-table button:hover {
+  opacity: 0.8;
+}
+
+.stock-table button:focus {
+  outline: none;
+}
+
+.stock-table button:first-child {
+  background-color: #28a745; /* Green for Buy */
+  color: white;
+}
+
+.stock-table button:first-child:hover {
+  background-color: #218838;
+}
+
+.stock-table button:last-child {
+  background-color: #dc3545; /* Red for Sell */
+  color: white;
+}
+
+.stock-table button:last-child:hover {
+  background-color: #c82333;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .list-container {
+    padding: 1rem;
+  }
+
+  .stock-table {
+    padding: 1rem;
+  }
+
+  .stock-table table {
+    font-size: 0.9rem;
+  }
+
+  .stock-table th,
+  td {
+    padding: 0.8rem;
+  }
+
+  .stock-table button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Error and loading message styles */
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 2rem;
+}
+
